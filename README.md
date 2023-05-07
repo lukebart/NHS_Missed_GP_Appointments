@@ -1,6 +1,8 @@
 # Bartholomew_Luke_DA201_Assignment
 LSE Data Analytics Assignment 2
 
+==========================================================================================
+
 Assignment Activity 2: Import & Explore the Data
 
 NOTE: In order to avoid repetition, I wrote a function used to describe the data imported from each csv file. Rather than count the number of records by location or category, I used the calculation of the sum of appointments as I thought this would be a more insightful measure.
@@ -41,3 +43,45 @@ Dataset national_categories.xlsx
 - national_category 'General Consultation Routine' has the highest sum of appointments = 97,271,522. These categories could be useful to determine the use of resources in the NHS.
 
 Notes: The dataset does not contain descriptive information for the location icb_ons_code. I will need to wrangle the data to include this information to that it be presented informatively in a chart or table. The complete date (including day) is available for time series analysis. 
+
+==========================================================================================
+
+Assignment Activity 3: Analyse The Data
+
+Dataset actual_duration.csv
+- Updated datatype of appointment_date from object to datetime
+
+Dataset appointments_regional.csv
+- Added appointment_date as datetime, mapped from appointment_month
+
+Question 1: Between what dates were appointments scheduled?
+
+Calcuated Min, Max for appointment_date of each dataframe and concatenated.
+actual_duration.csv = appointment dates from 01/12/2021 to 30/06/2022
+appointments_regional.csv = appointment dates from 01/01/2020 to 01/06/2022
+national_categories.xlsx = appointment dates from 01/08/2021 to 30/06/2022
+
+Notes: appointments_regional.csv dates aggregated by month, therefore every date will be format '01/mm/yyyy'. Each dataset ended in June 2022.
+
+Question 2: Which service setting reported the most appointments in North West London from 1 January to 1 June 2022?
+
+Analysed dataset national_categories.xlsx
+1. subset by sub_icb_location_name = 'NHS North West London ICB - W2U3Z'
+2. filter subset by appointment_date
+3. groupby filtered subset and aggregated count_of_appointments using sum
+
+Notes: Most appointments were at the General Practice (4,760,966). The next highest was Primary Care Network (108,901). There were many Unmapped (387,939).
+
+Question 3: Which month had the highest number of appointments?
+
+Analysed dataset national_categories.xlsx
+1. groupby year & month, aggregate count_of_appointments by sum, sortby sum_of_appointments
+
+Notes: October 2021 (30,405,070) & November 2011 (30,303,834) recorded the most appointments by month.
+
+Question 4: What is the total number of records per month?
+
+Analysed dataset national_categories.xlsx
+1. groupby year & month, aggregate count_of_appointments by count, sortby count_of_records
+
+Notes: March 2022 (82,822) & November 2021 (77,652) had the most number of records.
