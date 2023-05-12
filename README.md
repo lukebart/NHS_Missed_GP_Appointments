@@ -1,9 +1,9 @@
 # Bartholomew_Luke_DA201_Assignment
 LSE Data Analytics Assignment 2
 
-==========================================================================================
+==============================================================================
 
-Assignment Activity 2: Import & Explore the Data
+# Assignment Activity 2: Import & Explore the Data
 
 NOTE: In order to avoid repetition, I wrote a function used to describe the data imported from each csv file. Rather than count the number of records by location or category, I used the calculation of the sum of appointments as I thought this would be a more insightful measure.
 
@@ -44,9 +44,9 @@ Dataset national_categories.xlsx
 
 Notes: The dataset does not contain descriptive information for the location icb_ons_code. I will need to wrangle the data to include this information to that it be presented informatively in a chart or table. The complete date (including day) is available for time series analysis. 
 
-==========================================================================================
+==============================================================================
 
-Assignment Activity 3: Analyse The Data
+# Assignment Activity 3: Analyse The Data
 
 Dataset actual_duration.csv
 - Updated datatype of appointment_date from object to datetime
@@ -85,3 +85,49 @@ Analysed dataset national_categories.xlsx
 1. groupby year & month, aggregate count_of_appointments by count, sortby count_of_records
 
 Notes: March 2022 (82,822) & November 2021 (77,652) had the most number of records.
+
+==============================================================================
+
+# Assignment Activity 4: Visualise & Identify Trends
+
+Objective 1
+Create three visualisations indicating the number of appointments per month for service settings, context types, and national categories.
+
+Service Settings (5)
+- General Practice makes up over 90% of all appointments.
+- General Practice appointments have been increasing over time. Demand was low in August & September 2021. Demand peaked in March 2022.
+- An event occurred in December 2021, showing significantly reduced appointments.
+- Unmapped appointments reduced significantly over time, indicating more accurate reporting.
+
+Context Types (3)
+- Unmapped appointments reduced significantly over time, indicating more accurate reporting.
+
+National Categories (18 values)
+- General Consultation Routine & General Consultation Acute are the top 2 categories.
+- Top 7 categories make up 97% of total appointments.
+- Unmapped category reduced over time, indicating more accurate data reporting.
+- Planned Clinics & Planned Clinical Procedure dropped signifantly in December 2021 and rebounded strongly.
+
+Objective 2
+Create four visualisations indicating the number of appointments for service setting per season. The seasons are summer (August 2021), autumn (October 2021), winter (January 2022), and spring (April 2022).
+
+August 2021
+- Monthly data shows low (close to zero) appointments on Saturday and Sunday.
+- Appointments peak on Monday and slows reduce until Friday.
+- Overall daily appointments stay under the recognised capacity of 1,200,000 per day.
+
+October 2021
+- Saturday appointments showing in the results. Perhaps opened up due to demand and lack of available appointments during the week.
+- Weekday appointments show average always above capacity of 1,200,000.
+
+January 2022
+- No appointments during the weekend.
+- Weekday appointments show average always above capacity of 1,200,000.
+
+April 2022
+- No appointments during the weekend.
+- Data in the middle of April shows no apointments for a long weekend (Fri to Mon)
+- Daily appointments peaking every Monday.
+- Weekday appointments show average almost always above capacity of 1,200,000.
+
+Bar chart shows Tuesday is the busiest day, with just over 20% of weekly appointments.
