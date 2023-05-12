@@ -1,7 +1,7 @@
 # Bartholomew_Luke_DA201_Assignment
 LSE Data Analytics Assignment 2
 
-==============================================================================
+===========================================================================
 
 # Assignment Activity 2: Import & Explore the Data
 
@@ -44,7 +44,7 @@ Dataset national_categories.xlsx
 
 Notes: The dataset does not contain descriptive information for the location icb_ons_code. I will need to wrangle the data to include this information to that it be presented informatively in a chart or table. The complete date (including day) is available for time series analysis. 
 
-==============================================================================
+===========================================================================
 
 # Assignment Activity 3: Analyse The Data
 
@@ -86,7 +86,7 @@ Analysed dataset national_categories.xlsx
 
 Notes: March 2022 (82,822) & November 2021 (77,652) had the most number of records.
 
-==============================================================================
+===========================================================================
 
 # Assignment Activity 4: Visualise & Identify Trends
 
