@@ -131,3 +131,16 @@ April 2022
 - Weekday appointments show average almost always above capacity of 1,200,000.
 
 Bar chart shows Tuesday is the busiest day, with just over 20% of weekly appointments.
+
+===========================================================================
+
+# Assignment Activity 5: Analyse the Twitter Data
+
+The primary analysis in this section is using the hashtag, tweet retweet and favorite counts.
+
+- Tweet retweet and favorite are similar as they measure the popularity of the original tweet. Further investigation could then be taken to determine the hashtags within the original tweet.
+- Hashtags (denoted by the # sign) are used to index words or phrases, which help describe the content contained within the tweet, making it searchable and easy to follow. Tweets can be grouped by hashtags.
+
+Analysis of real-time or historical social media data (including Twitter) can provide valuable information to the stakeholders as a measure of public sentiment towards the NHS services.
+
+Sentiment analysis (emotions, attitudes, opinions, positive/negative) of the NHS services can provide patient feedback which can inform decision-making.
