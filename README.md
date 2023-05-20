@@ -144,3 +144,19 @@ The primary analysis in this section is using the hashtag, tweet retweet and fav
 Analysis of real-time or historical social media data (including Twitter) can provide valuable information to the stakeholders as a measure of public sentiment towards the NHS services.
 
 Sentiment analysis (emotions, attitudes, opinions, positive/negative) of the NHS services can provide patient feedback which can inform decision-making.
+
+===========================================================================
+
+# Assignment Activity 6: Make Recommendations
+
+- Healthcare Professional (HCP) types: the data needs to be improved, to include more detail about which type in the "Other Practice Staff" category.
+- Actual Duration: the data will be more useful if it can be assiged to a national category and/or HCP type, then we can see how long appointments take relating to the task.
+- National category could include the data for missed appointments.
+- Target improving the time between booking and appointment. Some appointments will require the longer time gap, but for others a shorter gap may reduce the amount of missed appointments (to less than 1 week).
+- Anonymised social media sentiment analysis can be utilised during the busiest periods to identify when staff shortages are effecting patient.
+
+Further analysis of missed appointments should be focused on:
+
+- The usage of resources by national category, compare the ICB locations with high/low number of missed appointments to identify any trends or relationships.
+- A more granular look into the Sub-ICB location level may show how the usage of resources can determine outcomes.
+
