@@ -179,9 +179,4 @@ Further analysis of missed appointments should be focused on:
 
 # Final Report
 
-- Upload Bartholomew_Luke_DA201_Assignment_Presentation.mp4
-- Upload Bartholomew_Luke_DA201_Assignment_Report.pdf
-- Upload Bartholomew_Luke_DA201_Assignment_Notebook.ipynb
-- Upload icb_locations.csv
-
 Add permissions for team members to access report!
