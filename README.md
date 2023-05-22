@@ -149,6 +149,20 @@ Sentiment analysis (emotions, attitudes, opinions, positive/negative) of the NHS
 
 # Assignment Activity 6: Make Recommendations
 
+Analysis of missed appointments by region illustrates:
+
+1. London has low numbers of GPs per 100000 population and high % of missed appointments.
+2. North West high numbers of GPs per 100000 population and high % of missed appointments.
+3. The other regions show a positive correlation between % of missed appointments and the sum of appointments.
+4. The trend is the longer patients wait between booking the appointment and the actual appointment, increases the chances of that appointment being
+missed.
+5. London is a hotspot for missed appointments.
+
+Appointment waiting times greater than 1 week can double the probability that the appointment will be missed. Therefore, we can say that efforts should be made to reduce waiting times between booking and appointment date.
+
+Increased demand for acute (emergency, same-day) services may negatively affect planned services.
+
+Key recommendations:
 - Healthcare Professional (HCP) types: the data needs to be improved, to include more detail about which type in the "Other Practice Staff" category.
 - Actual Duration: the data will be more useful if it can be assiged to a national category and/or HCP type, then we can see how long appointments take relating to the task.
 - National category could include the data for missed appointments.
@@ -156,7 +170,12 @@ Sentiment analysis (emotions, attitudes, opinions, positive/negative) of the NHS
 - Anonymised social media sentiment analysis can be utilised during the busiest periods to identify when staff shortages are effecting patient.
 
 Further analysis of missed appointments should be focused on:
-
 - The usage of resources by national category, compare the ICB locations with high/low number of missed appointments to identify any trends or relationships.
 - A more granular look into the Sub-ICB location level may show how the usage of resources can determine outcomes.
+- GPs per 100000 population are low in the London region, could there be other staff shortages (e.g., Nurse, Physio) which increase the length of time between booking and appointment date?
+
+===========================================================================
+
+# Final Report
+
 
